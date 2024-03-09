@@ -24,7 +24,6 @@ const jwt = require("jsonwebtoken");
 const cookieParser = require("cookie-parser");
 const { Order } = require("./model/Orders.js");
 const { buffer } = require("stream/consumers");
-const { bodyParser } = require("json-server");
 const path = require("path");
 
 // const token = jwt.sign({ foo: "bar" }, SECRET_KEY);
